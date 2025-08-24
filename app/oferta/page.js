@@ -1,4 +1,4 @@
-import lokale from "@/data/lokale.json"
+import lokale from "@/data/mieszkania1.json"
 
 export default function OfertaPage() {
   return (
@@ -12,9 +12,10 @@ export default function OfertaPage() {
           <tr className="bg-blue-600 text-white">
             <th className="p-3">Nr lokalu</th>
             <th className="p-3">Metraż</th>
-            <th className="p-3">Cena</th>
+            <th className="p-3">Cena brutto (zł)</th>
+            <th className="p-3">Cena (m2)</th>
             <th className="p-3">Status</th>
-            <th className="p-3">Ogródek</th>
+            <th className="p-3">Ogródek w m2</th>
             <th className="p-3">Miejsca postojowe</th>
           </tr>
         </thead>
@@ -24,12 +25,13 @@ export default function OfertaPage() {
               key={lokal.id}
               className={lokal.status === "wolny" ? "bg-green-50" : "bg-red-50"}
             >
-              <td className="p-3 text-center">{lokal.numer}</td>
-              <td className="p-3 text-center">{lokal.powierzchnia}</td>
-              <td className="p-3 text-center">{lokal.cena}</td>
+              <td className="p-3 text-center">{lokal.adres}</td>
+              <td className="p-3 text-center">{lokal.metraz_m2}</td>
+              <td className="p-3 text-center">{lokal.cena_brutto}</td>
+              <td className="p-3 text-center">{lokal.cena_brutto_m2}</td>
               <td className="p-3 text-center">{lokal.status}</td>
-              <td className="p-3 text-center">{lokal.ogrodek}</td>
-              <td className="p-3 text-center">{lokal.parking}</td>
+              <td className="p-3 text-center">{lokal.ogrodek_m2}</td>
+              <td className="p-3 text-center">{lokal.parking_miejsca}</td>
             </tr>
           ))}
         </tbody>

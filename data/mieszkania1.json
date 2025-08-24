@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "adres": "25A/1",
+    "inwestycja": "Osiedle 11 Listopada",
+    "metraz_m2": 115.78,
+    "cena_brutto": 910000,
+    "cena_brutto_m2": 7859.73,
+    "status": "wolny",
+    "ogrodek_m2": 35,
+    "parking_miejsca": 2,
+    "kosztyDodatkowe": [],
+    "historiaCen": [
+      { "data": "2025-08-15", "cena": 910000 }
+    ]
+  },
+  {
+    "id": 2,
+    "adres": "25A/2",
+    "inwestycja": "Osiedle 11 Listopada",
+    "metraz_m2": 116.59,
+    "cena_brutto": 910000,
+    "cena_brutto_m2": 7805.13,
+    "status": "wolny",
+    "ogrodek_m2": 35,
+    "parking_miejsca": 2,
+    "kosztyDodatkowe": [],
+    "historiaCen": [
+      { "data": "2025-08-15", "cena": 910000 }
+    ]
+  },
+  {
+    "id": 3,
+    "adres": "25B/1",
+    "inwestycja": "Osiedle 11 Listopada",
+    "metraz_m2": 116.59,
+    "cena_brutto": 910000,
+    "cena_brutto_m2": 7805.13,
+    "status": "wolny",
+    "ogrodek_m2": 35,
+    "parking_miejsca": 2,
+    "kosztyDodatkowe": [],
+    "historiaCen": [
+      { "data": "2025-08-15", "cena": 910000 }
+    ]
+  },
+   {
+    "id": 4,
+    "adres": "25B/2",
+    "inwestycja": "Osiedle 11 Listopada",
+    "metraz_m2": 116.59,
+    "cena_brutto": 910000,
+    "cena_brutto_m2": 7805.13,
+    "status": "wolny",
+    "ogrodek_m2": 35,
+    "parking_miejsca": 2,
+    "kosztyDodatkowe": [],
+    "historiaCen": [
+      { "data": "2025-08-15", "cena": 910000 }
+    ]
+  },
+   {
+    "id": 5,
+    "adres": "25C/1",
+    "inwestycja": "Osiedle 11 Listopada",
+    "metraz_m2": 116.59,
+    "cena_brutto": 910000,
+    "cena_brutto_m2": 7805.13,
+    "status": "wolny",
+    "ogrodek_m2": 35,
+    "parking_miejsca": 2,
+    "kosztyDodatkowe": [],
+    "historiaCen": [
+      { "data": "2025-08-15", "cena": 910000 }
+    ]
+  },
+  {
+    "id": 6,
+    "adres": "25C/2",
+    "inwestycja": "Osiedle 11 Listopada",
+    "metraz_m2": 115.78,
+    "cena_brutto": 985000,
+    "cena_brutto_m2": 8507.51,
+    "status": "wolny",
+    "ogrodek_m2": 115,
+    "parking_miejsca": 2,
+    "kosztyDodatkowe": [],
+    "historiaCen": [
+      { "data": "2025-08-15", "cena": 985000 }
+    ]
+  }
+]
