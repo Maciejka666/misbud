@@ -25,7 +25,7 @@ export default function OfertaPage() {
               className={lokal.status === "wolny" ? "bg-green-50" : "bg-red-50"}
             >
               <td className="p-3 text-center">{lokal.numer}</td>
-              <td className="p-3 text-center">{lokal.metraz}</td>
+              <td className="p-3 text-center">{lokal.powierzchnia}</td>
               <td className="p-3 text-center">{lokal.cena}</td>
               <td className="p-3 text-center">{lokal.status}</td>
               <td className="p-3 text-center">{lokal.ogrodek}</td>
