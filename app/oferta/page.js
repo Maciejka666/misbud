@@ -1,13 +1,16 @@
 const lokale = [
-  { nr: 1, metraz: "45 m²", cena: "450 000 zł", status: "wolny", ogrodek: "Tak", parking: "1 miejsce" },
-  { nr: 2, metraz: "65 m²", cena: "620 000 zł", status: "zarezerwowany", ogrodek: "Nie", parking: "Brak" },
-  { nr: 3, metraz: "80 m²", cena: "790 000 zł", status: "wolny", ogrodek: "Tak", parking: "2 miejsca" },
+  { nr: 1,  adres: "25A/1", metraz: "115.78 m²", cena: "910 000 zł", status: "wolny", ogrodek: "35m²", parking: "2 miejsce" },
+  { nr: 2,  adres: "25A/2", metraz: "116.59 m²", cena: "910 000 zł", status: "zarezerwowany", ogrodek: "35m²", parking: "2 miejsca" },
+  { nr: 3,  adres: "25B/1", metraz: "116.59 m²", cena: "910 000 zł", status: "wolny", ogrodek: "35m²", parking: "2 miejsca" },
+  { nr: 4,  adres: "25B/2", metraz: "116.59 m²", cena: "910 000 zł", status: "wolny", ogrodek: "35m²", parking: "2 miejsca" },
+  { nr: 5,  adres: "25C/1", metraz: "116.59 m²", cena: "910 000 zł", status: "wolny", ogrodek: "35m²", parking: "2 miejsca" },
+  { nr: 6,  adres: "25C/2", metraz: "115.78 m²", cena: "985 000 zł", status: "wolny", ogrodek: "105m²", parking: "2 miejsca" },
 ]
 
 export default function OfertaPage() {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-6">Oferta mieszkań</h2>
+      <h2 className="text-2xl font-bold mb-6">Oferta segmentów przy ul. 11 Listopada 25 w Markach</h2>
 
       <table className="w-full border-collapse shadow-md">
         <thead>
@@ -23,7 +26,7 @@ export default function OfertaPage() {
         <tbody>
           {lokale.map((lokal) => (
             <tr key={lokal.nr} className={lokal.status === "wolny" ? "bg-green-50" : "bg-red-50"}>
-              <td className="p-3 text-center">{lokal.nr}</td>
+              <td className="p-3 text-center">{lokal.adres}</td>
               <td className="p-3 text-center">{lokal.metraz}</td>
               <td className="p-3 text-center">{lokal.cena}</td>
               <td className="p-3 text-center">{lokal.status}</td>
@@ -39,11 +42,13 @@ export default function OfertaPage() {
         <h3 className="text-xl font-semibold mb-4 text-blue-700">Standard wykończenia</h3>
         <ul className="list-disc ml-6 space-y-2">
           <li>Podłogi przygotowane pod położenie paneli lub parkietu</li>
-          <li>Ściany otynkowane i pomalowane na biało</li>
+          <li>Ściany otynkowane - tynk gipsowy</li>
           <li>Nowoczesne okna trzyszybowe</li>
-          <li>Drzwi wejściowe antywłamaniowe</li>
-          <li>Instalacja elektryczna i wodno-kanalizacyjna</li>
-          <li>Ogrzewanie podłogowe w łazienkach</li>
+          <li>ocieplone i wykończone płytą gipsową poddasze użytkowe</li>
+          <li>Instalacja elektryczna, wodno-kanalizacyjna, światłowodowa</li>
+          <li>Ogrzewanie podłogowe na całym przyziemiu i w łazienkach</li>
+          <li>zamontowany piec CO 2-funkcyjny z wbudowanym zasobnikiem wodnym</li>
+
         </ul>
       </section>
 

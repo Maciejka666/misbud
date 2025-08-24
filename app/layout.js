@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main className="max-w-5xl mx-auto p-6">{children}</main>
         <footer className="text-center text-sm text-gray-500 py-6 border-t">
-          &copy; {new Date().getFullYear()} Deweloper Prestige
+          &copy; {new Date().getFullYear()} phu Miś-Bud
         </footer>
       </body>
     </html>
