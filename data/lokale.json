@@ -1,0 +1,8 @@
+[
+  { "id": 1,  "inwestycja": "11 Listopada", "numer": "25A/1", "powierzchnia": "115.78 m²", "cena": "910 000 zł", "status": "wolny", "ogrodek": "35m²", "parking": "2 miejsca",  "dataAktualizacji": "2025-08-21" },
+  { "id": 2, "inwestycja": "11 Listopada", "numer": "25A/2", "powierzchnia": "116.59 m²", "cena": "910 000 zł", "status": "zarezerwowany", "ogrodek": "35m²", "parking": "2 miejsca", "dataAktualizacji": "2025-08-21" },
+  { "id": 3, "inwestycja": "11 Listopada", "numer": "25B/1", "powierzchnia": "116.59 m²", "cena": "910 000 zł", "status": "wolny", "ogrodek": "35m²", "parking": "2 miejsca", "dataAktualizacji": "2025-08-21"},
+  { "id": 4, "inwestycja": "11 Listopada", "numer": "25B/2", "powierzchnia": "116.59 m²", "cena": "910 000 zł", "status": "wolny", "ogrodek": "35m²", "parking": "2 miejsca" , "dataAktualizacji": "2025-08-21"},
+  { "id": 5,  "inwestycja": "11 Listopada","numer": "25C/1", "powierzchnia": "116.59 m²", "cena": "910 000 zł", "status": "wolny", "ogrodek": "35m²", "parking": "2 miejsca", "dataAktualizacji": "2025-08-21" },
+  { "id": 6,  "inwestycja": "11 Listopada","numer": "25C/2", "powierzchnia": "115.78 m²", "cena": "985 000 zł", "status": "wolny", "ogrodek": "105m²", "parking": "2 miejsca", "dataAktualizacji": "2025-08-21"}
+]

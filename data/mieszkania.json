@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "inwestycja": "Osiedle Zielone",
+    "numer": "A12",
+    "powierzchnia": 54.3,
+    "cena": 599000,
+    "dataAktualizacji": "2025-08-21",
+    "status": "wolne"
+  },
+  {
+    "id": 2,
+    "inwestycja": "Osiedle Zielone",
+    "numer": "A13",
+    "powierzchnia": 62.5,
+    "cena": 679000,
+    "dataAktualizacji": "2025-08-21",
+    "status": "zarezerwowane"
+  }
+]
