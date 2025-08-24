@@ -15,7 +15,7 @@ export default function OfertaPage() {
             <th className="p-3">Cena brutto (zł)</th>
             <th className="p-3">Cena za m2</th>
             <th className="p-3">Status</th>
-            <th className="p-3">Ogródek w m2</th>
+            <th className="p-3">Ogródek (m2)</th>
             <th className="p-3">Miejsca postojowe</th>
           </tr>
         </thead>
