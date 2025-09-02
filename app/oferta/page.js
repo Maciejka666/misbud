@@ -1,6 +1,17 @@
-import lokale from "@/data/mieszkania1.json"
+"use client"
+import { useState, useEffect } from "react"
+
+import lokaleData from "@/data/mieszkania1.json"
+
 
 export default function OfertaPage() {
+
+  const [lokale, setLokale] = useState([])
+  
+  useEffect(() => {
+      setLokale(lokaleData)
+  }, [])
+
   return (
     <div>
       <h2 className="text-2xl font-bold mb-6">
@@ -17,6 +28,7 @@ export default function OfertaPage() {
             <th className="p-3">Status</th>
             <th className="p-3">Ogródek (m2)</th>
             <th className="p-3">Miejsca postojowe</th>
+            <th className="p-3">Historia cen</th>
           </tr>
         </thead>
         <tbody>
@@ -32,6 +44,24 @@ export default function OfertaPage() {
               <td className="p-3 text-center">{lokal.status}</td>
               <td className="p-3 text-center">{lokal.ogrodek_m2}</td>
               <td className="p-3 text-center">{lokal.parking_miejsca}</td>
+              <td className="p-3 text-center">
+                {lokal.historiaCen?.length > 0 ? (
+                  <details className="cursor-pointer">
+                    <summary className="text-blue-600 hover:underline">
+                      Pokaż historię
+                    </summary>
+                    <ul className="text-sm mt-2 space-y-1">
+                      {lokal.historiaCen.map((h, idx) => (
+                        <li key={idx}>
+                          {h.data}: <strong>{h.cena.toLocaleString()} zł</strong>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                ) : (
+                  <span className="text-gray-500 italic">brak</span>
+                )}
+              </td>
             </tr>
           ))}
         </tbody>

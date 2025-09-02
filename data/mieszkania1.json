@@ -11,6 +11,7 @@
     "parking_miejsca": 2,
     "kosztyDodatkowe": [],
     "historiaCen": [
+      {  "data": "2025-08-01", "cena": 899000 },
       { "data": "2025-08-15", "cena": 910000 }
     ]
   },
@@ -26,6 +27,7 @@
     "parking_miejsca": 2,
     "kosztyDodatkowe": [],
     "historiaCen": [
+      {  "data": "2025-08-01", "cena": 899000 },
       { "data": "2025-08-15", "cena": 910000 }
     ]
   },
@@ -41,6 +43,7 @@
     "parking_miejsca": 2,
     "kosztyDodatkowe": [],
     "historiaCen": [
+      {  "data": "2025-08-01", "cena": 899000 },
       { "data": "2025-08-15", "cena": 910000 }
     ]
   },
@@ -56,6 +59,7 @@
     "parking_miejsca": 2,
     "kosztyDodatkowe": [],
     "historiaCen": [
+      {  "data": "2025-08-01", "cena": 899000 },
       { "data": "2025-08-15", "cena": 910000 }
     ]
   },
@@ -71,7 +75,8 @@
     "parking_miejsca": 2,
     "kosztyDodatkowe": [],
     "historiaCen": [
-      { "data": "2025-08-15", "cena": 910000 }
+       {  "data": "2025-08-01", "cena": 899000 },
+       { "data": "2025-08-15", "cena": 910000 }
     ]
   },
   {
