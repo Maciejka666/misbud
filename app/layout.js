@@ -9,14 +9,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
-      <body className="font-sans bg-gray-50 text-gray-800">
+      <body className="font-sans bg-gray-50 text-gray-800 flex flex-col min-h-screen">
         <Header />
-        <main className="max-w-5xl mx-auto p-6">{children}</main>
-        <footer className="text-center text-sm text-gray-500 py-6 border-t">
+
+        {/* Szerszy układ i elastyczne zdjęcia */}
+        <main className="flex-grow max-w-7xl w-full mx-auto p-6">
+          {children}
+        </main>
+
+        {/* Mniejsza stopka */}
+        <footer className="text-center text-xs text-gray-500 py-2 border-t">
           &copy; {new Date().getFullYear()} phu Miś-Bud
         </footer>
       </body>
     </html>
   )
 }
+
 

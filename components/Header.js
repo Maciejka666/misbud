@@ -2,15 +2,20 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-md">
-      <div className="max-w-5xl mx-auto flex justify-between items-center p-4">
-        <h1 className="text-xl font-bold text-blue-700">PHU MIŚ-BUD</h1>
-        <nav className="space-x-4">
-          <Link href="/" className="hover:text-blue-600">Strona główna</Link>
-          <Link href="/oferta" className="hover:text-blue-600">Oferta</Link>
-          <Link href="/kontakt" className="hover:text-blue-600">Kontakt</Link>
+    <header className="bg-blue-500 text-white py-4 shadow-md">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        {/* Logo / nazwa */}
+        <h1 className="text-3xl font-bold tracking-wide">
+          Mis-Bud
+        </h1>
+
+        {/* Menu */}
+        <nav className="space-x-6 text-lg">
+          <a href="/" className="hover:underline">Strona główna</a>
+          <a href="/oferta" className="hover:underline">Oferta</a>
+          <a href="/kontakt" className="hover:underline">Kontakt</a>
         </nav>
       </div>
     </header>
-  );
+  )
 }

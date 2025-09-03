@@ -105,11 +105,6 @@ export default function OfertaPage() {
             className="rounded-lg shadow-md hover:scale-105 transition"
           />
           <img
-            src="/img/IMG_0063.jpg"
-            alt=""
-            className="rounded-lg shadow-md hover:scale-105 transition"
-          />
-          <img
             src="/img/IMG_0064.jpg"
             alt=""
             className="rounded-lg shadow-md hover:scale-105 transition"
@@ -124,6 +119,22 @@ export default function OfertaPage() {
             alt=""
             className="rounded-lg shadow-md hover:scale-105 transition"
           />
+           <img
+            src="/img/2parter - 2.jpg"
+            alt=""
+            className="rounded-lg shadow-md hover:scale-105 transition"
+          />
+           <img
+            src="/img/2pietro - 2.jpg"
+            alt=""
+            className="rounded-lg shadow-md hover:scale-105 transition"
+          /> 
+          <img
+            src="/img/2poddasze - 2.jpg"
+            alt=""
+            className="rounded-lg shadow-md hover:scale-105 transition"
+          /> 
+        
         </div>
       </section>
     </div>
