@@ -21,16 +21,18 @@
     "adres": "25A/2",
     "inwestycja": "Osiedle 11 Listopada",
     "metraz_m2": 116.59,
-    "cena_brutto": 917000,
-    "cena_brutto_m2": 7865.16,
-    "status": "wolny",
+    "cena_brutto": 900000,
+    "cena_brutto_m2": 7719.36,
+    "status": "sprzedany",
     "ogrodek_m2": 35,
     "parking_miejsca": 2,
     "kosztyDodatkowe": [],
     "historiaCen": [
       {  "data": "2025-08-01", "cena": 899000 },
       { "data": "2025-08-15", "cena": 910000 },
-        { "data": "2026-01-21", "cena": 917000 }
+        { "data": "2026-01-21", "cena": 917000 },
+         { "data": "2026-08-10", "cena": 900000 }
+
     ]
   },
   {
